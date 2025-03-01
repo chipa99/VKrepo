@@ -1,7 +1,7 @@
 <script setup>
 import { io } from "socket.io-client";
 import { useStore } from "~/stores/vk";
-
+//ну ты и дурак
 const { _id, fullname } = useStore().user;
 const route = useRoute();
 const id = route.params.id
