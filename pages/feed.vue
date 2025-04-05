@@ -1,5 +1,4 @@
 <script setup>
-
 const { data: posts, pending, error, refresh } = await useFetch('https://6741ccb5e4647499008eceae.mockapi.io/posts')
 const { data: users } = await useFetch('https://6741ccb5e4647499008eceae.mockapi.io/users');
 onBeforeMount(() => {
@@ -19,13 +18,13 @@ useSeoMeta({
     ogDescription: 'This my own social media based on Nuxt',
 })
 </script>
+
 <template>
     <main class="basis-7/12 flex flex-col gap-4 ml-[200px]">
         <UCard v-for="post, index in posts" :key="index" :ui="{
             ring: 'ring-1 ring-gray-300',
             bg: ' bg-white rounded-xl '
         }">
-
             <div class="flex flex-row gap-3 mb-2">
                 <div>
                     <UAvatar :src="userOfPost(post.userId).avatar" size="lg" :alt="userOfPost(post.userId).name" />
@@ -86,7 +85,3 @@ useSeoMeta({
         </UCard>
     </main>
 </template>
-
-
-
-<style></style>

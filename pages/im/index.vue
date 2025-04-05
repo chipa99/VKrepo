@@ -37,9 +37,6 @@ console.log(contacts);
                     <div class="flex flex-col justify-start gap-1 basis-full">
                         <h1>{{ contact.fullname }}</h1>
                         <div class="flex flex-row gap-3 items-center w-[550px]">
-
-                            <!-- <p class="text-sm  text-gray-400/50 truncate text-nowrap ">{{ contact[contacts.length - 1] -->
-                            <!-- }}</p> -->
                         </div>
                     </div>
                 </div>
@@ -47,6 +44,3 @@ console.log(contacts);
         </ul>
     </div>
 </template>
-
-
-<!-- <UAvatar src="avatarMine.jpg" v-if="contact.lastYourMessage" /> -->

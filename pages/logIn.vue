@@ -9,8 +9,8 @@ useSeoMeta({
     description: 'This logging or sing up your vk account',
     ogDescription: 'This logging in or sing up your vk account',
 })
-
 </script>
+
 <template>
     <div class="m-auto flex flex-col items-center">
         <auth-form />
@@ -20,7 +20,3 @@ useSeoMeta({
         </div>
     </div>
 </template>
-
-
-
-<style></style>
