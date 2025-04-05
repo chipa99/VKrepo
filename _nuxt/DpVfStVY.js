@@ -1,0 +1,1 @@
+import{_ as o,o as s,c as t,z as c}from"./C_-MUiqN.js";const r={},n={class:"bg-gray-200/75 py-[230px]"};function a(e,_){return s(),t("div",n,[c(e.$slots,"default")])}const d=o(r,[["render",a]]);export{d as default};
